@@ -2,7 +2,7 @@ CPP=c++
 CFLAGS=-Wall -Werror -Wextra -std=c++98
 
 SRC=main.cpp Harl.cpp
-NAME=Harl
+NAME=harlFilter
 
 OBJS=$(SRC:%.cpp=%.o)
 
