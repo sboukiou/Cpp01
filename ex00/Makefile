@@ -1,8 +1,8 @@
 CPP=c++
 CFLAGS=-Wall -Werror -Wextra -std=c++98
 
-SRC=main.cpp newZombie.cpp Zombie.cpp
-NAME=Zombie
+SRC=main.cpp newZombie.cpp Zombie.cpp randomChump.cpp
+NAME=BraiiiiiiinnnzzzZ
 
 OBJS=$(SRC:%.cpp=%.o)
 
