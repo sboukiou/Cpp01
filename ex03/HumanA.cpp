@@ -3,8 +3,8 @@
 #include <iostream>
 
 
-HumanA::HumanA(std::string name, Weapon& weap): weap(weap) {
-	name = name;
+HumanA::HumanA(std::string var, Weapon& weap): weap(weap) {
+	name = var;
 }
 
 void HumanA::attack(void) {
